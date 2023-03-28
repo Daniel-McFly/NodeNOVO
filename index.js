@@ -31,4 +31,4 @@ server.delete('/teste/:index', (req,res) => {
     return res.send();
 });//delete, onde deletamos elementos da lista teste
 
-server.listen(3000); //define a porta em que será executado, no caso, localhost:3000
+server.listen(3000); //define a porta em que será executado, no caso, localhost:30000
